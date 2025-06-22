@@ -34,17 +34,18 @@ h1 {
     text-align: center; /* Centra el texto del logo */
     margin: 1em;
     font-size: 3em;
-    
-}
-.all{
-    text-align: center; /* Centra el texto de la clase "all" */
+    text-align: center; /* Centra el texto de la clase "logo" */
     margin: 1em;
     font-size: 2em;
     color: #000; /* Color del texto */
     border: 1px solid #000; /* Borde alrededor del texto */
     border-radius: 20px; /* Bordes redondeados */
 }
-.all:hover {
+    
+
+
+   
+.logo:hover {
     background-color: #b0e914; /* Cambia el color de fondo al pasar el mouse */
    
 }
@@ -70,9 +71,9 @@ h1 {
   -webkit-background-clip: text; /* Recorta el fondo al texto (compatible con navegadores WebKit) */
   -webkit-text-fill-color: transparent; /* Hace que el color del texto sea transparente (compatible con navegadores WebKit) */
   background-clip: text; /* Recorta el fondo al texto */
+  
 }
   
-
 .menu-item-lomoroquefort{
   text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
   font-size: 5em; /* Tamaño del texto */
