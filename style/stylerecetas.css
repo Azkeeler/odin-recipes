@@ -1,0 +1,19 @@
+.recetas {
+    background-color: #f0f8ff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+ text-align: center;
+    font-size: 2em;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 1em;  
+}
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+}

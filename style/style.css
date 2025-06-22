@@ -1,0 +1,87 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 1em;
+}
+ul li {
+  margin-right: 5em;
+  
+}
+li {
+
+    border: 1px solid #000; /* Borde alrededor de cada elemento de la lista */
+    text-align: center;
+    border-radius: 20px;
+    background-color:brown /* Imagen de fondo para cada elemento de la lista */
+}
+li:hover {
+    background-color: #b0e914; /* Cambia el color de fondo al pasar el mouse */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+/* Estilos para el menú */
+.menu-item {
+  display: inline-block; /* Para que los elementos del menú estén uno al lado del otro */
+  padding: 10px; /* Espacio alrededor del texto */
+}
+h1 {
+    text-align: center; /* Centra el texto del encabezado */
+    font-size: 2em; /* Tamaño del texto del encabezado */
+    color: #000; /* Color del texto del encabezado */
+    margin-top: 0.5em; /* Espacio superior del encabezado */
+    margin-bottom: 0.5em; /* Espacio inferior del encabezado */
+}
+.logo {
+    text-align: center; /* Centra el texto del logo */
+    margin: 1em;
+    font-size: 3em;
+    
+}
+.all{
+    text-align: center; /* Centra el texto de la clase "all" */
+    margin: 1em;
+    font-size: 2em;
+    color: #000; /* Color del texto */
+    border: 1px solid #000; /* Borde alrededor del texto */
+    border-radius: 20px; /* Bordes redondeados */
+}
+.all:hover {
+    background-color: #b0e914; /* Cambia el color de fondo al pasar el mouse */
+   
+}
+.menu-item-croquetas{
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+  font-size: 5em; /* Tamaño del texto */
+  font-weight: bold; /* Texto en negrita */
+  color: transparent; /* Hace que el color del texto sea transparente */
+  background: url('../images/Croquetas.png') no-repeat center center; /* Establece la imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el texto */
+  -webkit-background-clip: text; /* Recorta el fondo al texto (compatible con navegadores WebKit) */
+  -webkit-text-fill-color: transparent; /* Hace que el color del texto sea transparente (compatible con navegadores WebKit) */
+  background-clip: text; /* Recorta el fondo al texto */
+  
+}
+.menu-item-pollocurry{
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+  font-size: 5em; /* Tamaño del texto */
+  font-weight: bold; /* Texto en negrita */
+  color: transparent; /* Hace que el color del texto sea transparente */
+  background: url('../images/Pollocurry.png') no-repeat center center; /* Establece la imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el texto */
+  -webkit-background-clip: text; /* Recorta el fondo al texto (compatible con navegadores WebKit) */
+  -webkit-text-fill-color: transparent; /* Hace que el color del texto sea transparente (compatible con navegadores WebKit) */
+  background-clip: text; /* Recorta el fondo al texto */
+}
+  
+
+.menu-item-lomoroquefort{
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+  font-size: 5em; /* Tamaño del texto */
+  font-weight: bold; /* Texto en negrita */
+  color: transparent; /* Hace que el color del texto sea transparente */
+  background: url('../images/Lomoroque.png') no-repeat center center; /* Establece la imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el texto */
+  -webkit-background-clip: text; /* Recorta el fondo al texto (compatible con navegadores WebKit) */
+  -webkit-text-fill-color: transparent; /* Hace que el color del texto sea transparente (compatible con navegadores WebKit) */
+  background-clip: text; /* Recorta el fondo al texto */
+}
+
