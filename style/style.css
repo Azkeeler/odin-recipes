@@ -9,7 +9,9 @@ ul {
   list-style-type: none;
   display: flex;
   margin: 1em;
-}
+  position: absolute;
+  top: 50%; /* Posiciona la lista en la parte superior */
+  justify-content: center; /* Centra los elementos de la lista horizontalmente */}
 ul li {
   margin-right: 5em;
 }
